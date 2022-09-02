@@ -16,4 +16,24 @@ git config --global user.name "username"
 ```bash
 git init
 ```
-* Para ver el estado de 
+* Para ver el estado de nuestros cambios
+
+```bash
+git status
+```
+* Agrega los archivos a la memoria de PC
+```bash
+git add .
+```
+* Crea el registro de cambios realizados
+```bash
+git commit -m "comentario"
+```
+* Poder ver historial de commits
+```bash
+git log
+```
+* Para poder ver el detalle del commit
+```bash
+git show
+```
